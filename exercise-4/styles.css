@@ -93,7 +93,7 @@ body {
 }
 
 figure {
-  max-height: 28em;
+  min-height: 28em;
   margin-bottom: 0;
   margin-left: -10em;
   margin-right: -10em;
@@ -102,6 +102,7 @@ figure {
 }
 
 figure img {
+  min-height: auto;
   max-width: 100%;
   object-fit: cover;
   object-position: center center;
@@ -111,8 +112,7 @@ article {
   margin-left: auto;
   margin-right: auto;
   max-width: 48em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-top: 2em;
 }
 
 article h1 {

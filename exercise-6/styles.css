@@ -53,3 +53,12 @@ body {
 .button__three {
   left: 96px;
 }
+.button__one:hover~.bulb:nth-child(3n+1) {
+  background: yellow;
+}
+.button__two:hover~.bulb:nth-child(3n+2) {
+  background: yellow;
+}
+.button__three:hover~.bulb:nth-child(3n+3) {
+  background: yellow;
+}
